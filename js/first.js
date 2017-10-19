@@ -7,6 +7,7 @@
 	}
 
 
-	function setBookName(var book){
+	function setBookName(book){
 		bookname = book;
+		window.location.href = "https://naman0105.github.io/ebook_reader/readbook.html";
 	}
