@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<title>Ebook reader</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-ls-10 col-ls-offset-1">
+<!-- 				<div onclick="Book.prevPage();">‹</div> -->
+				<button class="btn btn-primary" onclick="Book.prevPage();">previous page</button>
+
+				<div id="area"></div>
+								
+
+				<button class="btn btn-primary" onclick="Book.nextPage();">next page</button>
+
+<!-- 				<div onclick="Book.nextPage();">›</div> -->
+			</div>
+		</div>
+	</div>
+	<script src ="jszip/dist/jszip.min.js"></script>
+	<script src="epub.js-master/build/epub.min.js"></script>
+	<script src="js/first.js" type="application/javascript"></script>
+</body>
+</html>
